@@ -1,0 +1,14 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; background: #f6f7f9; }
+.container { max-width: 720px; margin: 40px auto; padding: 0 16px; }
+.card { background: #fff; padding: 24px; border-radius: 12px; box-shadow: 0 6px 20px rgba(0,0,0,0.06); }
+h1 { margin-top: 0; }
+.form { display: flex; flex-direction: column; gap: 10px; }
+input { padding: 10px 12px; font-size: 16px; border: 1px solid #d2d6dc; border-radius: 8px; }
+button { padding: 10px 16px; font-size: 16px; border-radius: 8px; border: 1px solid #111827; background: #111827; color: #fff; cursor: pointer; }
+button:disabled { opacity: .7; cursor: not-allowed; }
+.msg { margin-top: 12px; color: #b91c1c; }
+.muted { color: #6b7280; font-size: 14px; margin-top: 12px; }
+.perfil p { margin: 6px 0; }
+a { color: #0b63c6; text-decoration: none; }
+a:hover { text-decoration: underline; }
