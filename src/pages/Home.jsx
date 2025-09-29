@@ -8,9 +8,9 @@ export default function Home() {
 
       <p>Escolha uma das páginas do projeto:</p>
       <ul style={{ lineHeight: 1.9 }}>
-        <li><Link to="/cadastro">Página 1 – Cadastro</Link></li>
-        <li><Link to="/login">Página 2 – Login</Link></li>
-        <li><Link to="/principal">Página 3 – Principal</Link></li>
+        <li><Link to="/cadastro">Cadastro</Link></li>
+        <li><Link to="/login">Login</Link></li>
+        <li><Link to="/principal">Principal</Link></li>
       </ul>
 
       <hr style={{ margin: "16px 0" }} />
